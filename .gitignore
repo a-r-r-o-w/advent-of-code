@@ -1,0 +1,6 @@
+# output files
+*.out
+
+# binaries
+main
+build/
