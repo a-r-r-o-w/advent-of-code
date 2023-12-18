@@ -9,7 +9,7 @@ Over the few years of programming I've done, I've solved almost all AOC problems
 <details>
 <summary>2023</summary>
 
-| Month | c | c++ | python |
+| month | c | c++ | python |
 | --- | --- | --- | --- |
 | 01 | [✔️](2023/01/c) | - | - |
 | 02 | [✔️](2023/02/c) | - | - |
