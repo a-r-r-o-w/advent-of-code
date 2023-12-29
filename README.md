@@ -15,6 +15,7 @@ Over the few years of programming I've done, I've solved almost all AOC problems
 | 02 | [✔️](2023/02/c) | - | - |
 | 03 | [✔️](2023/03/c) | - | - |
 | 04 | - | - | [✔️](2023/04/python) |
+| 06 | - | [✔️](2023/06/cpp) | - |
 | 08 | - | - | [✔️](2023/08/python) |
 | 13 | - | [✔️](2023/13/cpp) | - |
 | 14 | - | [✔️](2023/14/cpp) | - |
@@ -22,5 +23,7 @@ Over the few years of programming I've done, I've solved almost all AOC problems
 | 16 | - | [✔️](2023/16/cpp) | - |
 | 17 | - | [✔️](2023/17/cpp) | - |
 | 18 | - | [✔️](2023/18/cpp) | - |
+| 19 | - | - | [✔️](2023/19/python) |
+| 24 | - | - | [✔️](2023/24/python) |
 
 </details>
