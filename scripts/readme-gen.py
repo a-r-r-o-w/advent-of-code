@@ -1,19 +1,23 @@
 import os
 import argparse
 
+languages = ["c", "cpp", "python", "java", "rust", "javascript"]
+
+
 def generate_readme(year):
     readme_content = ""
-    readme_content += "| month | c | c++ | python |\n"
-    readme_content += "| --- | --- | --- | --- |\n"
+    readme_content += f"| month | {' | '.join(languages)} |\n"
+    readme_content += f"| --- | {'--- | ' * len(languages)}\n"
 
     for day in sorted(os.listdir(year)):
         day_path = os.path.join(year, day)
         if os.path.isdir(day_path):
-            c_solution = get_solution_link(day_path, "c")
-            cpp_solution = get_solution_link(day_path, "cpp")
-            python_solution = get_solution_link(day_path, "python")
+            solutions = []
+            for lang in languages:
+                solution = get_solution_link(day_path, lang)
+                solutions.append(solution)
 
-            row = f"| {day} | {c_solution} | {cpp_solution} | {python_solution} |\n"
+            row = f"| {day} | {' | '.join(solutions)} |\n"
             readme_content += row
 
     return readme_content
