@@ -6,8 +6,8 @@ languages = ["c", "cpp", "python", "java", "rust", "javascript"]
 
 def generate_readme(year):
     readme_content = ""
-    readme_content += f"| month | {' | '.join(languages)} |\n"
-    readme_content += f"| --- | {'--- | ' * len(languages)}\n"
+    readme_content += f"| day | {' | '.join(languages)} |\n"
+    readme_content += f"| :-: | {':-: | ' * len(languages)}\n"
 
     for day in sorted(os.listdir(year)):
         day_path = os.path.join(year, day)

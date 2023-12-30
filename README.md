@@ -9,8 +9,8 @@ Over the few years of programming I've done, I've solved almost all AOC problems
 <details>
 <summary>2023</summary>
 
-| month | c | cpp | python | java | rust | javascript |
-| --- | --- | --- | --- | --- | --- | --- | 
+| day | c | cpp | python | java | rust | javascript |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
 | 01 | [✔️](2023/01/c) | - | - | - | - | - |
 | 02 | [✔️](2023/02/c) | - | - | - | - | - |
 | 03 | [✔️](2023/03/c) | - | - | - | - | - |
